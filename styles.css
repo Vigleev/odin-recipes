@@ -1,0 +1,14 @@
+html {
+    background-color:bisque;
+}
+li:first-of-type {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:red;
+}
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:green;
+}
+h1 {
+    font-family: fantasy;
+}
