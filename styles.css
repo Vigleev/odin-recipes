@@ -1,14 +1,37 @@
 html {
     background-color:bisque;
 }
-li:first-of-type {
+
+/*css fundamentals*/
+/*li:first-of-type {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:red;
 }
+*/
 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:green;
 }
-h1 {
+.title {
     font-family: fantasy;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+/* box-model */
+.title {
+    text-align: center;
+}
+ul{
+    display:table;
+    margin:auto;
+}
+li{
+    margin:auto;
+    font-size: 32px;
+    /*list-style-position: inside;*/
+}
+
+li:hover {
+    color:blueviolet;
 }
